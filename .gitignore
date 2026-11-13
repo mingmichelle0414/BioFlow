@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data and medical images (never commit)
+data/
+datasets/
+*.nii
+*.nii.gz
+*.dcm
+*.mha
+*.nrrd
+*.h5
+*.npy
+*.npz
+
+# Checkpoints and outputs
+checkpoints/
+outputs/
+results/
+runs/
+logs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
